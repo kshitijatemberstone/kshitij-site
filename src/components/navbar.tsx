@@ -42,7 +42,8 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href="/Kshitij_Kapure_Resume.pdf"
+            // src="/me/profile.jpg"
+            href="kshitij_cv.pdf"
             className="rounded-full border border-slate-700 bg-slate-900/70 px-3 py-1.5 text-xs font-medium text-slate-200 hover:border-slate-400"
           >
             Resume
@@ -54,7 +55,6 @@ export function Navbar() {
           animate={{ opacity: [0.4, 1, 0.4] }}
           transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
         />
-
       </div>
     </header>
   );

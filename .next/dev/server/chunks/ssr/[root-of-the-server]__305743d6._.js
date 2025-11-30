@@ -13,41 +13,64 @@ module.exports = mod;
 
 __turbopack_context__.n(__turbopack_context__.i("[project]/src/app/layout.tsx [app-rsc] (ecmascript)"));
 }),
-"[project]/src/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/src/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
 
-// // app/page.tsx
-// import { Hero } from "@/components/hero";
-// import { SelectedWork } from "@/components/selected-work";
-// import { Skills } from "@/components/skills";
-// import { Timeline } from "@/components/timeline";
-// import { Principles } from "@/components/principles";
-// import { ContactStrip } from "@/components/contact-strip";
+// // src/app/page.tsx
+// import { ProfileRail } from "@/components/profile-rail";
+// import { SectionWork } from "@/components/section-work";
+// import { SectionExperience } from "@/components/section-experience";
+// import { SectionSkills } from "@/components/section-skills";
+// import { SectionPrinciples } from "@/components/section-principles";
+// import { SectionContact } from "@/components/section-contact";
 // export default function HomePage() {
 //   return (
-//     <main className="space-y-24 md:space-y-32">
-//       <Hero />
-//       <SelectedWork />
-//       <Skills />
-//       <Timeline />
-//       <Principles />
-//       <ContactStrip />
-//     </main>
-//   );
-// }
-// export default function HomePage() {
-//   return (
-//     <main className="min-h-screen bg-slate-950 flex items-center justify-center">
-//       <div className="rounded-3xl border border-slate-700 bg-slate-900 px-8 py-6 text-center">
-//         <h1 className="text-4xl font-semibold text-red-400">
-//           Agar yeh laal text bada dikh raha hai → Tailwind ✅
-//         </h1>
-//         <p className="mt-3 text-sm text-slate-300">
-//           Agar normal chota boring text hai → Tailwind ⛔ abhi bhi nahi chal raha.
-//         </p>
+//     <div className="grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.3fr)] lg:gap-16">
+//       <ProfileRail />
+//       <div className="space-y-16 md:space-y-20">
+//         <SectionWork />
+//         <SectionExperience />
+//         <SectionSkills />
+//         <SectionPrinciples />
+//         <SectionContact />
 //       </div>
+//     </div>
+//   );
+// }
+// import { HeroRecord } from "@/components/HeroRecord";
+// import { WorkLogs } from "@/components/WorkLogs";
+// export default function Home() {
+//   return (
+//     <main className="space-y-32">
+//       <HeroRecord />
+//       <WorkLogs />
 //     </main>
 //   );
 // }
+// src/app/page.tsx
+// src/app/page.tsx
+__turbopack_context__.s([
+    "default",
+    ()=>HomePage
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+;
+function HomePage() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "space-y-24 md:space-y-28",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "h-px w-full bg-gradient-to-r from-transparent via-slate-800 to-transparent"
+        }, void 0, false, {
+            fileName: "[project]/src/app/page.tsx",
+            lineNumber: 55,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/src/app/page.tsx",
+        lineNumber: 51,
+        columnNumber: 5
+    }, this);
+}
 }),
 "[project]/src/app/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
 
