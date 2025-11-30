@@ -19,7 +19,20 @@ body {
 }
 
 body {
+  font-family: var(--font-inter), system-ui, sans-serif;
   @apply bg-slate-950 text-slate-50 antialiased;
+}
+
+.app-shell {
+  position: relative;
+}
+
+/* Headings use Space Grotesk */
+h1,
+h2,
+h3,
+.font-space {
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
 }
 
 ::selection {

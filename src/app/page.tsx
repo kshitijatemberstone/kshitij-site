@@ -1,4 +1,5 @@
-// app/page.tsx
+
+// src/app/page.tsx
 import { Hero } from "@/components/hero";
 import { SelectedWork } from "@/components/selected-work";
 import { Skills } from "@/components/skills";
